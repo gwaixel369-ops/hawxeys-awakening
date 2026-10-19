@@ -1,0 +1,42 @@
+# Dependencies
+node_modules/
+package-lock.json
+yarn.lock
+
+# Production assets (use Git LFS)
+assets/video/
+assets/audio/*.wav
+assets/audio/*.mp3
+assets/images/*.png
+assets/images/*.jpg
+assets/images/*.jpeg
+assets/3d/
+
+# Environment variables & secrets
+.env
+.env.local
+.env.*.local
+config/notion-config.json
+config/social-config.json
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Notion exports (large)
+notion/exports/
+
+# Social analytics (auto-generated)
+social/analytics/
+
+# Build
+dist/
+build/
+.vercel/
+.netlify/

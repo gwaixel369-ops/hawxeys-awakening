@@ -1,0 +1,26 @@
+{
+  "name": "hawxeys-awakening",
+  "version": "1.0.0",
+  "description": "A Psycho-Universal Bible for Street Sovereignty",
+  "scripts": {
+    "dev": "vite web/",
+    "build": "vite build web/",
+    "deploy": "vercel --prod",
+    "notion:sync": "node scripts/notion/daily-checkin.js",
+    "anima:test": "node scripts/ai-anima/dialogue-tree.js",
+    "social:schedule": "node scripts/social/auto-post.js"
+  },
+  "dependencies": {
+    "three": "^0.155.0",
+    "mapbox-gl": "^2.15.0",
+    "@notionhq/client": "^2.2.11",
+    "node-cron": "^3.0.0"
+  },
+  "devDependencies": {
+    "vite": "^4.4.9",
+    "eslint": "^8.48.0",
+    "prettier": "^3.0.3"
+  },
+  "license": "MIT",
+  "author": "Glen Waixel / gwaixel369-ops"
+}
